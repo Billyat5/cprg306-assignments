@@ -3,12 +3,12 @@ import StudentInfo from "../StudentInfo.js";
 
 export default function Page() {
     return (
-    <main>
-        <h1>My Shopping List</h1>
-        <br />
-        <StudentInfo />
-        <br />
-        <Link href="/">Click to go back to Home</Link>
-        </main>    
+      <main className="m-4">
+        <h1 className="text-2xl">My Shopping List</h1>
+        <div className="flex justify-between items-center">
+            <div className="flex-grow"></div>
+            <StudentInfo />
+        </div>
+      </main>    
     );
 }

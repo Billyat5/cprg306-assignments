@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function Page() {
   return (
-  <main>
-      <h1>CPRG 306: Web Development 2 - Assignments</h1>
+  <main className="m-4">
+      <h1 className="text-4xl">CPRG 306: Web Development 2 - Assignments</h1>
       <br />
       <StudentInfo />
       <br />
