@@ -8,17 +8,19 @@ export default function Page() {
       <br />
       <StudentInfo />
       <br />
-      <Link href="/week2">Click to go to Week 2</Link>  
+      <Link className="hover:underline" href="/week2">Click to go to Week 2</Link>  
       <br />    
-      <Link href="/week3">Click to go to Week 3</Link>
+      <Link className="hover:underline" href="/week3">Click to go to Week 3</Link>
       <br />    
-      <Link href="/week4">Click to go to Week 4</Link>      
+      <Link className="hover:underline" href="/week4">Click to go to Week 4</Link>      
       <br />    
-      <Link href="/week5">Click to go to Week 5</Link>  
+      <Link className="hover:underline" href="/week5">Click to go to Week 5</Link>  
       <br />    
-      <Link href="/week6">Click to go to Week 6</Link>
+      <Link className="hover:underline" href="/week6">Click to go to Week 6</Link>
       <br />    
-      <Link href="/week7">Click to go to Week 7</Link>           
+      <Link className="hover:underline" href="/week7">Click to go to Week 7</Link>
+      <br />    
+      <Link className="hover:underline" href="/week8">Click to go to Week 8</Link>               
       </main>    
   );
 }
