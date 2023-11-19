@@ -20,7 +20,9 @@ export default function Page() {
       <br />    
       <Link className="hover:underline" href="/week7">Click to go to Week 7</Link>
       <br />    
-      <Link className="hover:underline" href="/week8">Click to go to Week 8</Link>               
+      <Link className="hover:underline" href="/week8">Click to go to Week 8</Link>
+      <br />    
+      <Link className="hover:underline" href="/week10">Click to go to Week 10</Link>                 
       </main>    
   );
 }
